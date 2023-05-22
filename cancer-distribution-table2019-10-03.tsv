@@ -1,0 +1,11 @@
+Project	Disease Type	Site	# SSM Affected Cases	# CNV Gains	# CNV Losses	# Mutations
+TCGA-UCEC	▾ 4 Disease Types	▾ 2 Primary Sites	62 / 530 (11.70%)	26 / 510 (5.10%)	33 / 510 (6.47%)	98
+TCGA-COAD	▾ 4 Disease Types	▾ 2 Primary Sites	30 / 400 (7.50%)	7 / 448 (1.56%)	32 / 448 (7.14%)	43
+TCGA-SKCM	Nevi and Melanomas	Skin	34 / 469 (7.25%)	17 / 468 (3.63%)	18 / 468 (3.85%)	44
+TCGA-CESC	▾ 4 Disease Types	Cervix uteri	15 / 289 (5.19%)	7 / 294 (2.38%)	13 / 294 (4.42%)	14
+TCGA-STAD	▾ 2 Disease Types	Stomach	22 / 440 (5.00%)	14 / 432 (3.24%)	29 / 432 (6.71%)	26
+TCGA-ESCA	▾ 3 Disease Types	▾ 2 Primary Sites	9 / 184 (4.89%)	11 / 184 (5.98%)	8 / 184 (4.35%)	11
+TCGA-LUSC	Squamous Cell Neoplasms	Bronchus and lung	24 / 495 (4.85%)	20 / 502 (3.98%)	33 / 502 (6.57%)	24
+TCGA-READ	▾ 2 Disease Types	▾ 5 Primary Sites	6 / 137 (4.38%)	5 / 164 (3.05%)	18 / 164 (10.98%)	7
+TCGA-LUAD	▾ 3 Disease Types	Bronchus and lung	20 / 567 (3.53%)	30 / 513 (5.85%)	20 / 513 (3.90%)	24
+TCGA-ACC	Adenomas and Adenocarcinomas	Adrenal gland	3 / 92 (3.26%)	0 / 90 (0.00%)	3 / 90 (3.33%)	4
