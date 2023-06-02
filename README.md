@@ -4,6 +4,8 @@ ViolaRNA is an automated pipeline tool that processes raw RNA-seq data and gener
 ### MIT License
 
 ![image](https://github.com/henrylowgh/ViolaRNA/assets/131828718/4f177166-8570-4585-89d4-f2fde73d5837)
+![image](https://github.com/henrylowgh/ViolaRNA/assets/131828718/c7eaab5f-0e16-4c23-ac9f-ed8586c38de9)
+
 
 # To use:
 
@@ -16,9 +18,14 @@ Ensuring values are normalized to be xpressed as transcripts per million (TPM), 
 ![image](https://github.com/henrylowgh/ViolaRNA/assets/131828718/13f22f47-ac64-4e1b-8ee3-cbb73aa3bda2)
 
 ## Miscellaneous Notes on a Sample Workflow
-(1)	NLGN3 and the GRIA genes were included to verify the accuracy of the R script used to generate these plots and for comparison to those used in the paper by Venkatesh et al. The plots that I produced in R for these genes were nearly identical in appearance to those found in the paper, which seemed to validate my code.  
+(1)	NLGN3 and the GRIA genes were included for validation purposes.
 (2)	TP53 was included as a reference, given its identity as a gene frequently associated with high expression in gliomas and other cancers.
-(3)	DIPG-VI and DIPG-XIII refer to the two respective pediatric patients with diffuse intrinsic pontine glioma (DIPG) whose cells were used to produce the xenograft models.
+(3)	DIPG-VI and DIPG-XIII refer to the two respective sources of diffuse intrinsic pontine glioma (DIPG) used in xenograft models.
 (4)	This data was manually compiled from two separate biopsy tissue datasets (GSE102130 and GSE89567). The first dataset featured RNA-seq reads for H3K27M+ glioma cells as well as for H3K27M wild type, isocitrate dehydrogenase (IDH) wild type glioma cells. The second dataset featured RNA-seq reads for IDH-mutant glioma cells and for non-malignant oligodendrocyte cells.
-(5)	Dataset 1 - H3K27M: This batch of data features manually annotated entries in the H3K27M+ dataset by linking individual patient cell entries with their corresponding tumor markers. In my final concatenated dataset, I included the RNA-seq reads for patients MUV1, MUV10, BCH836, BCH869, and BCH1126, who all tested positive for the H3K27M mutation. I also included patient MUV5, who was positive for a mutation in the related H1K27M gene. Meanwhile, patients MGH66, MGH101, and MGH104 tested negative for both the H3K27 and IDH mutations, so I designated them as the IDH-wild type cohort. 
-(6)	IDH Dataset: Annotated and organized in a similar way to the H3K27M+ dataset. Patients MGH42, MGH43, MGH44, MGH45, MGH56, MGH61, MGH64, MGH103, and MGH107 all tested positive for the IDH mutation, so they are designed as the IDH-mutant cohort.
+(5)	Dataset 1 - H3K27M: This batch of data features manually annotated entries in the H3K27M+ dataset by linking individual patient cell entries with their corresponding tumor markers. In my final concatenated dataset, Includes the RNA-seq reads for  MUV1, MUV10, BCH836, BCH869, and BCH1126, which all tested positive for the H3K27M mutation, along with MUV5, which was positive for a mutation in the related H1K27M gene. Meanwhile, MGH66, MGH101, and MGH104 tested negative for both the H3K27 and IDH mutations, designated as the IDH-wild type cohort. 
+(6)	IDH Dataset: Annotated and organized in a similar way to the H3K27M+ dataset. MGH42, MGH43, MGH44, MGH45, MGH56, MGH61, MGH64, MGH103, and MGH107 all tested positive for the IDH mutation, designed as the IDH-mutant cohort.
+
+## References
+(1)	Venkatesh, Humsa S et al. “Electrical and synaptic integration of glioma into neural circuits.” Nature vol. 573,7775 (2019): 539-545. 
+(2)	Filbin, Mariella G et al. “Developmental and oncogenic programs in H3K27M gliomas dissected by single-cell RNA-seq.” Science (New York, N.Y.) vol. 360,6386 (2018): 331-335.
+(3)	Venteicher, Andrew S et al. “Decoupling genetics, lineages, and microenvironment in IDH-mutant gliomas by single-cell RNA-seq.” Science (New York, N.Y.) vol. 355,6332 (2017).
