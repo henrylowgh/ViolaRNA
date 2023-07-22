@@ -1,6 +1,8 @@
 # ViolaRNA
 ViolaRNA is an automated pipeline tool that processes raw RNA-seq data and generates violin plots of expression distribution profiles
 
+<a href="https://zenodo.org/badge/latestdoi/634778015"><img src="https://zenodo.org/badge/634778015.svg" alt="DOI"></a>
+
 ### MIT License
 
 ![image](https://github.com/henrylowgh/ViolaRNA/assets/131828718/4f177166-8570-4585-89d4-f2fde73d5837)
