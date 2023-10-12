@@ -7,7 +7,7 @@ ViolaRNA is an automated pipeline tool that processes raw RNA-seq data and gener
 
 
 ![Official Plot](https://github.com/henrylowgh/ViolaRNA/assets/131828718/b753e3d3-3c69-404e-b89a-82a73f91348f)
-![Official Plots](https://github.com/henrylowgh/ViolaRNA/assets/131828718/2d183778-1f36-425e-85fc-56fc0de30f9c)
+![Official Plots](https://github.com/henrylowgh/ViolaRNA/assets/131828718/2d183778-1f36-425e-85fc-56fc0de30f9c) 
 
 
 
